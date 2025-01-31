@@ -176,11 +176,12 @@ img {
     position: fixed;
     top: 0;
     right: -100%;
-    background-color: var(--black-color);
+    background: rgba(57, 56, 56, 0.256);
+    backdrop-filter: blur(20px);
     width: 80%;
     height: 100%;
     padding: 7.5rem 3.5rem 0;
-    border-left: 2px solid var(--black-border);
+    /* border-left: 2px solid var(--black-border); */
   }
 }
 
@@ -191,7 +192,7 @@ img {
 }
 
 .nav__link{
-  color: var(--text-color-light);
+  color: white;
   font-weight: var(--font-semi-bold);
   transition: color .4s;
 }
@@ -344,7 +345,7 @@ img {
   display: flex;
   align-items: center;
   column-gap: .25rem;
-  color: var(--first-color);
+  color:white;
 }
 
 .button__link span{
@@ -399,7 +400,7 @@ img {
 
 .about__img-1{
   width: 200px;
-  border: 5px solid var(--body-color);
+  /* border: 5px solid var(--body-color); */
   position: absolute;
   top: -5rem;
   left: 6rem;
