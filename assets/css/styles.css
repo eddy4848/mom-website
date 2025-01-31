@@ -777,6 +777,17 @@ img {
     
     grid-template-columns: repeat(1, max-content);
   }
+  .vid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+  }
 }
 
 /* For medium devices */
