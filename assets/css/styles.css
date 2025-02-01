@@ -280,6 +280,12 @@ img {
   font-weight: var(--font-bold);
   margin-bottom: .5renm;
 }
+.card{
+  z-index: -1000;
+  display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .home__info-description{
   font-size: var(--small-font-size);
@@ -294,6 +300,9 @@ img {
 .home__img-1{
   width: 250px;
   margin-left: 3.5rem;
+  filter: grayscale(.50);
+  -webkit-filter: grayscale(.50);
+  
 }
 
 .home__img-2{
@@ -302,6 +311,7 @@ img {
   position: absolute;
   left: 0;
   bottom: -3.5rem;
+  
 
 }
 
@@ -322,8 +332,8 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: right;
-  filter: grayscale(1);
-  -webkit-filter: grayscale(1);
+  filter: grayscale(.30);
+  -webkit-filter: grayscale(.30);
 }
 
 /*=============== BUTTON ===============*/
